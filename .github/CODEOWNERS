@@ -1,0 +1,23 @@
+# CODEOWNERS for dispatch-sandbox
+#
+# This file defines who is automatically requested for review when a pull
+# request touches matching paths. Rules are evaluated top-to-bottom; the LAST
+# matching pattern for a given file takes precedence.
+#
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-configuration/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo.
+*                   @flow6979
+
+# Repository documentation.
+/README.md          @flow6979
+/ORIENTATION.md     @flow6979
+/CONTRIBUTING.md    @flow6979
+/SECURITY.md        @flow6979
+
+# Licensing and legal.
+/LICENSE            @flow6979
+
+# Repository metadata and automation config.
+/.github/           @flow6979
+/.gitignore         @flow6979
